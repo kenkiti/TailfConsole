@@ -10,7 +10,7 @@ namespace tail
         {
             Action<String[]> f = Usage;
             if (args.Length == 0) {
-                args = new String[] { @"\\MARKETSPEED001\log\" + DateTime.Now.ToString("yyyyMMdd") + "cs.txt" };
+                args = new String[] { @"\\MARKETSPEED005\log\" + DateTime.Now.ToString("yyyyMMdd") + "cs.txt" };
             }
             if (File.Exists(args[0]))
             {
